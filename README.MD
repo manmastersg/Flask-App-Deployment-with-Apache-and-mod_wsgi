@@ -92,6 +92,13 @@ Add the following content:
 ```
 Save the file.
 
+You can also change the port 80 to other number, example:5000. If you do that, you will need to edit /etc/apache2/ports.conf and add another line under Listen 80
+Example:
+Listen 80
+Listen 5000
+
+Save the file.
+
 Enable the Configuration:
 
 ```bash
